@@ -17,7 +17,8 @@
     magit
     fill-column-indicator
     dockerfile-mode
-    yaml-mode))
+    yaml-mode
+    markdown-mode))
 
 (dolist (p my-packages)
   (unless (package-installed-p p)
